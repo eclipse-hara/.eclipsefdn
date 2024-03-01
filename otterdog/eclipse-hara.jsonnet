@@ -7,7 +7,6 @@ orgs.newOrg('eclipse-hara') {
     description: "Eclipse Hara™ provides a reference agent software implementation featuring the Eclipse hawkBit device API.",
     email: "webmaster@eclipse-foundation.org",
     name: "Eclipse Hara",
-    plan: "free",
     readers_can_create_discussions: true,
     two_factor_requirement: false,
     web_commit_signoff_required: false,
