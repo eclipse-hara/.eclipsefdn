@@ -45,10 +45,10 @@ orgs.newOrg('eclipse-hara') {
       ],
       variables: [
         orgs.newRepoVariable('SONAR_CLOUD_ORGANIZATION') {
-          value: "eclipse\r\n",
+          value: "eclipse-hara\r\n",
         },
         orgs.newRepoVariable('SONAR_CLOUD_PROJECT_KEY') {
-          value: "eclipse_hara-ddiclient",
+          value: "eclipse-hara_hara-ddiclient",
         },
         orgs.newRepoVariable('SONAR_CLOUD_PROJECT_NAME') {
           value: "hara-ddiclient",
