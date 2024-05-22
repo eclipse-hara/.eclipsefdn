@@ -23,8 +23,6 @@ orgs.newOrg('eclipse-hara') {
       gh_pages_source_branch: "gh-pages",
       gh_pages_source_path: "/",
       homepage: "https://projects.eclipse.org/projects/iot.hawkbit.hara",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       topics+: [
         "ddi",
         "eclipse",
