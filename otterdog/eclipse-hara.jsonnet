@@ -16,6 +16,10 @@ orgs.newOrg('eclipse-hara') {
     orgs.newRepo('hara-ddiclient') {
       allow_merge_commit: true,
       allow_update_branch: false,
+      code_scanning_default_languages+: [
+        "java-kotlin"
+      ],
+      code_scanning_default_setup_enabled: true,
       default_branch: "master",
       delete_branch_on_merge: false,
       description: "Hara-ddiclient is a Kotlin library that facilitates and speeds up the development of DDI API clients for devices connecting to hawkBit servers.",
