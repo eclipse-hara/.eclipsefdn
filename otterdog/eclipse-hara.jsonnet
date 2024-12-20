@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-hara') {
+orgs.newOrg('iot.hawkbit.hara', 'eclipse-hara') {
   settings+: {
     blog: "https://projects.eclipse.org/projects/iot.hawkbit.hara",
     description: "Eclipse Hara™ provides a reference agent software implementation featuring the Eclipse hawkBit device API.",
