@@ -35,7 +35,7 @@ orgs.newOrg('iot.hawkbit.hara', 'eclipse-hara') {
       web_commit_signoff_required: false,
       secrets: [
         orgs.newRepoSecret('SONAR_TOKEN') {
-          value: "********",
+          value: "pass:bots/iot.hawkbit.hara/sonarcloud.io/token-ddiclient",
         },
       ],
       variables: [
